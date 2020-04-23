@@ -1,6 +1,6 @@
 Place these files in /~/.config/openbox  
 
-# Keybinding  
+-- Keybinding  
 META=Super key  
 META+W = Close Window  
 META+space = showdesktop toggle
@@ -10,7 +10,7 @@ META_T = Terminal (lxterminal)
 META+B = Browser (firefox)
 META+H = File Manager (thunar)
 
-##Window Tiling  
+-- Window Tiling  
  +--------+-------+   +---------------+  
  | META+q | ALT+e |   |     META+w    |  
  +-------+-------+    +---------------+  
