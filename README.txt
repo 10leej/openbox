@@ -5,6 +5,7 @@ LXterminal
 Firefox
 dmenu
 Thunar
+conky - https://github.com/10leej/conky/blob/master/conky.conf
 
 -- Keybinding  
 META=Super key  
