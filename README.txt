@@ -20,8 +20,3 @@ META+Up = Maximize
 META+Down = Unmaximize
 META+Left = Tile Left
 META+Right = Tile Right
-
-I've configures these bindings to my personal preference, changing them is not very hard. Just change:
-<keybind key="m-y-k-e-y-s">
-to
-<keybind key="y-o-u-r-k-e-y-s">
