@@ -11,11 +11,11 @@ META+B = Browser (firefox)
 META+H = File Manager (thunar)
 
 -- Window Tiling  
- +--------+-------+
- | META+q | ALT+e |
- +-------+-------+ 
- | META+z | ALT+c |
- +--------+-------+
++-----------+----------+
+| META+Home | META+PgUp |
++-----------+----------+ 
+| META+End  | META+PgDn |
++-----------+----------+
 META+Up = Maximize
 META+Down = Unmaximize
 META+Left = Tile Left
