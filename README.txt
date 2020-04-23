@@ -1,5 +1,11 @@
 Place these files in /~/.config/openbox  
 
+Programs used:
+LXterminal
+Firefox
+dmenu
+Thunar
+
 -- Keybinding  
 META=Super key  
 META+W = Close Window  
