@@ -1,10 +1,6 @@
 Place these files in /~/.config/openbox
 
-## Supports Window Tiling
-<!--
- Add this to your openbox rc.xml
- inside <keyboard></keyboard>
- 
+Supports Window Tiling
  +-------+-------+   +---------------+
  | ALT+q | ALT+e |   |     ALT+w     |
  +-------+-------+   +---------------+
@@ -25,4 +21,3 @@ Place these files in /~/.config/openbox
  <keybind key="m-y-k-e-y-s">
  to
  <keybind key="y-o-u-r-k-e-y-s">
--->
