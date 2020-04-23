@@ -1,35 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openbox_menu>
 	<menu id="root-menu" label="OpenBox 3">
-		<menu id="40" label="OpenBox">
-			<menu id="client-list-menu"/>
-			<item label="Reconfigure WM">
-				<action name="Reconfigure"/>
-			</item>
-			<separator/>
-			<item label="Logout">
-				<action name="Exit"/>
-			</item>
+		<menu id="client-list-menu"/>
+		<item label="Plank">
+		    <action name="Execute">
+			<execute>
+			    plank
+			</execute>
+		    </action>
+		</item>
 
+		<item label="Reconfigure WM">
+			<action name="Reconfigure"/>
+		</item>
+		<separator/>
+		<item label="Logout">
+			<action name="Exit"/>
+		</item>
+		<item label="Reboot">
+		    <action name="Execute">
+			<prompt>
+			    Are you sure you want to reboot?
+			</prompt>
+			<execute>
+			    sudo shutdown -r now
+			</execute>
+		    </action>
+		</item>
 
-<item label='Shutdown'>
-	<action name='Execute'>
-		<prompt>
-		    Are you sure you want to shutdown?
-		</prompt>
-		<command>/usr/local/bin/opBox-exit.sh halt</command>
-	</action>
-</item>
-
-<item label='Reboot'>
-	<action name='Execute'>
-		<prompt>
-		    Are you sure you want to reboot?
-		</prompt>
-		<command>/usr/local/bin/opBox-exit.sh reboot</command>
-	</action>
-</item>
-
-		</menu>
+		<item label="Shutdown">
+		    <action name="Execute">
+			<prompt>
+			    Are you sure you want to shutdown?
+			</prompt>
+			<execute>
+			    sudo shutdown now
+			</execute>
+		    </action>
+		</item>
 	</menu>
 </openbox_menu>
