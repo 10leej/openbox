@@ -1,4 +1,5 @@
 numlockx on &
 plank &
 thunar --daemon &
-tint2 &
+conky -b &
+nitrogen --restore & #restore the background chosen with nitrogen
