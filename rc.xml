@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Numix</name>
+    <name>Tonolith_dark</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -250,7 +250,6 @@
     <keybind key="W-space">
       <action name="ToggleShowDesktop"/>
     </keybind>
-
     <!-- Keybindings for windows -->
     <keybind key="W-w">
       <action name="Close"/>
@@ -289,7 +288,6 @@
         <y>0%</y>
       </action>
     </keybind>
-
     <keybind key="W-x">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
@@ -299,16 +297,6 @@
         <y>50%</y>
       </action>
     </keybind>
-    <keybind key="W-w">
-      <action name="UnmaximizeFull"/>
-      <action name="MoveResizeTo">
-        <width>100%</width>
-        <height>50%</height>
-        <x>0%</x>
-        <y>0%</y>
-      </action>
-    </keybind>
-
     <keybind key="W-Home">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
@@ -345,14 +333,6 @@
         <y>50%</y>
       </action>
     </keybind>
-
-    <!-- Take a screenshot of the current window with scrot when Alt+Print are pressed -->
-    <keybind key="A-Print">
-      <action name="Execute">
-        <command>scrot -s</command>
-      </action>
-    </keybind>
-
     <!-- Keybindings for window switching -->
     <keybind key="A-Tab">
       <action name="NextWindow">
@@ -363,7 +343,6 @@
         </finalactions>
       </action>
     </keybind>
-
     <!-- Keybindings for running applications -->
     <keybind key="W-r">
       <action name="Execute">
@@ -371,33 +350,28 @@
         <command>dmenu_run</command>
       </action>
     </keybind>
-
     <keybind key="W-b">
       <action name="Execute">
         <name>Firefox</name>
         <command>firefox</command>
       </action>
     </keybind>
-
     <keybind key="W-t">
       <action name="Execute">
         <name>LXTerminal</name>
         <command>lxterminal</command>
       </action>
     </keybind>
-
     <keybind key="W-h">
       <action name="Execute">
         <name>Thunar</name>
         <command>thunar</command>
       </action>
     </keybind>
-
-
     <!-- Launch scrot when Print is pressed -->
     <keybind key="Print">
       <action name="Execute">
-        <command>scrot</command>
+        <command>shotgun</command>
       </action>
     </keybind>
   </keyboard>
@@ -857,5 +831,8 @@
 
   # end of the example
 -->
+  <application class="*">
+    <focus>yes</focus>
+  </application>
   </applications>
 </openbox_config>
