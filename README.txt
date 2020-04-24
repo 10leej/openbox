@@ -6,6 +6,8 @@ Firefox
 dmenu
 Thunar
 conky - https://github.com/10leej/conky/blob/master/conky.conf
+oblogout
+
 
 -- Keybinding  
 META=Super key  
