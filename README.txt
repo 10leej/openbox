@@ -1,12 +1,12 @@
 Place these files in /~/.config/openbox  
 
-Programs used:
+packages used:
 LXterminal
 Firefox
 dmenu
 Thunar
 conky - https://github.com/10leej/conky/blob/master/conky.conf
-oblogout
+oblogout (arch aur)
 
 
 -- Keybinding  
