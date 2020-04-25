@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Tonolith_dark</name>
+    <name>Clearlooks</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -831,8 +831,8 @@
 
   # end of the example
 -->
-  <application class="*">
-    <focus>yes</focus>
-  </application>
+    <application class="*">
+      <focus>yes</focus>
+    </application>
   </applications>
 </openbox_config>

@@ -17,7 +17,7 @@ META+space = showdesktop toggle
 META+R = Launcher (dmenu)  
 META_T = Terminal (lxterminal)
 META+B = Browser (firefox)
-META+H = File Manager (thunar)
+META+H = File Manager (pcmanfm)
 
 -- Window Tiling  
 +-----------+----------+
