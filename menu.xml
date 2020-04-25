@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu>
+	<menu id="root-menu" label="OpenBox 3">
+		<menu id="client-list-menu"/>
+		<item label="Plank">
+		    <action name="Execute">
+			<execute>
+			    plank
+			</execute>
+		    </action>
+		</item>
+
+		<item label="Reconfigure WM">
+			<action name="Reconfigure"/>
+		</item>
+
+		<item label="Exit System">
+		    <action name="Execute">
+			<execute>
+			    oblogout
+			</execute>
+		    </action>
+		</item>
+		<separator/>
+	</menu>
+</openbox_menu>
