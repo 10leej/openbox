@@ -1,10 +1,10 @@
 Place these files in /~/.config/openbox  
 
-packages used:
+Minimum packages installed:
 LXterminal
 Firefox
 dmenu
-Thunar
+PCmanFM
 conky - https://github.com/10leej/conky/blob/master/conky.conf
 oblogout (arch aur)
 
