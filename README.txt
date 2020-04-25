@@ -7,6 +7,7 @@ dmenu
 PCmanFM
 conky - https://github.com/10leej/conky/blob/master/conky.conf
 oblogout (arch aur)
+picom (if you want compositing)
 
 
 -- Keybinding  
