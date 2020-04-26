@@ -340,31 +340,33 @@
         </finalactions>
       </action>
     </keybind>
+
     <!-- Keybindings for running applications -->
     <keybind key="W-r">
       <action name="Execute">
-        <name>dmenu</name>
+        <name>Launcher</name>
         <command>dmenu_run</command>
       </action>
     </keybind>
     <keybind key="W-b">
       <action name="Execute">
-        <name>Firefox</name>
+        <name>Browser</name>
         <command>firefox</command>
       </action>
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
-        <name>ST</name>
-        <command>st</command>
+        <name>Terminal</name>
+        <command>alacritty</command>
       </action>
     </keybind>
     <keybind key="W-h">
       <action name="Execute">
-        <name>PCmanFM</name>
+        <name>File Manager</name>
         <command>pcmanfm</command>
       </action>
     </keybind>
+
     <!-- Launch scrot when Print is pressed -->
     <keybind key="Print">
       <action name="Execute">
