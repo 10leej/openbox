@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Clearlooks</name>
+    <name>Tonolith_dark</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -178,6 +178,7 @@
   </dock>
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
+
     <!-- Keybindings for desktop switching -->
     <keybind key="C-A-Left">
       <action name="GoToDesktop">
@@ -250,16 +251,12 @@
     <keybind key="W-space">
       <action name="ToggleShowDesktop"/>
     </keybind>
+
     <!-- Keybindings for windows -->
     <keybind key="W-w">
       <action name="Close"/>
     </keybind>
     <keybind key="A-Escape">
-      <action name="Lower"/>
-      <action name="FocusToBottom"/>
-      <action name="Unfocus"/>
-    </keybind>
-    <keybind key="A-space">
       <action name="ShowMenu">
         <menu>client-menu</menu>
       </action>
@@ -358,13 +355,13 @@
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
-        <name>LXTerminal</name>
-        <command>lxterminal</command>
+        <name>ST</name>
+        <command>st</command>
       </action>
     </keybind>
     <keybind key="W-h">
       <action name="Execute">
-        <name>PCManFM</name>
+        <name>PCmanFM</name>
         <command>pcmanfm</command>
       </action>
     </keybind>
@@ -831,8 +828,9 @@
 
   # end of the example
 -->
-    <application class="*">
-      <focus>yes</focus>
-    </application>
+  <application class="*">
+    <focus>yes</focus>
+  </application>
   </applications>
 </openbox_config>
+
