@@ -1,24 +1,18 @@
 Place these files in /~/.config/openbox  
 
 Minimum packages installed:
-LXterminal
-Firefox
-dmenu
-PCmanFM
+Termite (Meta+T)
+Firefox (Meta+B)
+dmenu (Meta+R)
+Thunar (Meta+H)
 conky - https://github.com/10leej/conky/blob/master/conky.conf
 oblogout (arch aur)
 picom (if you want compositing)
-
 
 -- Keybinding  
 META=Super key  
 META+W = Close Window  
 META+space = showdesktop toggle
-
-META+R = Launcher (dmenu)  
-META_T = Terminal (lxterminal)
-META+B = Browser (firefox)
-META+H = File Manager (pcmanfm)
 
 -- Window Tiling  
 +-----------+----------+
