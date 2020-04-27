@@ -27,8 +27,10 @@ META+Right = Tile Right
 
 Holding Shift plus any of the previous keybinds will make the windows 25% instead of 50%
 That will give you this effect (perfect for Ultrawide monitors :) )
+
+
 +-----------+----------+
-|     |     |    |     |
+|   1  | 0  |  0 |  2  |
 +-----------+----------+ 
-|     |     |    |     |
+|   4  | 0  |  0 |  3  |
 +-----------+----------+
