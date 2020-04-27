@@ -265,6 +265,15 @@
     <keybind key="W-Down">
       <action name="UnmaximizeFull"/>
     </keybind>
+    <keybind key="W-S-Left">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>25%</width>
+        <height>100%</height>
+        <x>0%</x>
+        <y>0%</y>
+      </action>
+    </keybind>
     <keybind key="W-Left">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
@@ -283,7 +292,17 @@
         <y>0%</y>
       </action>
     </keybind>
-    <keybind key="W-x">
+    <keybind key="W-S-Right">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>25%</width>
+        <height>100%</height>
+        <x>50%</x>
+        <y>0%</y>
+      </action>
+    </keybind>
+
+    <keybind key="W-Delete">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
         <width>100%</width>
@@ -292,6 +311,35 @@
         <y>50%</y>
       </action>
     </keybind>
+    <keybind key="W-S-Delete">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>100%</width>
+        <height>25%</height>
+        <x>0%</x>
+        <y>75%</y>
+      </action>
+    </keybind>
+
+    <keybind key="W-Insert">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>100%</width>
+        <height>50%</height>
+        <x>0%</x>
+        <y>0%</y>
+      </action>
+    </keybind>
+    <keybind key="W-S-Insert">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>100%</width>
+        <height>25%</height>
+        <x>0%</x>
+        <y>0%</y>
+      </action>
+    </keybind>
+
     <keybind key="W-Home">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
@@ -301,6 +349,16 @@
         <y>0%</y>
       </action>
     </keybind>
+    <keybind key="W-S-Home">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>25%</width>
+        <height>50%</height>
+        <x>0%</x>
+        <y>0%</y>
+      </action>
+    </keybind>
+
     <keybind key="W-End">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
@@ -310,6 +368,16 @@
         <y>50%</y>
       </action>
     </keybind>
+    <keybind key="W-S-End">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>25%</width>
+        <height>50%</height>
+        <x>0%</x>
+        <y>50%</y>
+      </action>
+    </keybind>
+
     <keybind key="W-Prior">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
@@ -319,6 +387,16 @@
         <y>0%</y>
       </action>
     </keybind>
+    <keybind key="W-S-Prior">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>25%</width>
+        <height>50%</height>
+        <x>75%</x>
+        <y>0%</y>
+      </action>
+    </keybind>
+
     <keybind key="W-Next">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
@@ -328,6 +406,16 @@
         <y>50%</y>
       </action>
     </keybind>
+    <keybind key="W-S-Next">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>25%</width>
+        <height>50%</height>
+        <x>75%</x>
+        <y>50%</y>
+      </action>
+    </keybind>
+
     <!-- Keybindings for window switching -->
     <keybind key="A-Tab">
       <action name="NextWindow">

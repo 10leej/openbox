@@ -1,5 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openbox_menu>
+	<menu id="Accessories" label="Accessories">
+		<item label="Bitwarden" icon="/usr/share/icons/hicolor/16x16/apps/bitwarden.png">
+			<action name="Execute"><execute>bitwarden-desktop</execute></action>
+		</item>
+		<item label="Mousepad">
+			<action name="Execute"><execute>mousepad </execute></action>
+		</item>
+		<item label="Vim" icon="/usr/share/icons/hicolor/48x48/apps/gvim.png">
+			<action name="Execute"><execute>xterm -e vim </execute></action>
+		</item>
+		<item label="compton" icon="/usr/share/icons/hicolor/48x48/apps/compton.png">
+			<action name="Execute"><execute>compton</execute></action>
+		</item>
+		<item label="jstest-gtk" icon="///usr/share/icons/jstest-gtk.png">
+			<action name="Execute"><execute>/usr/bin/jstest-gtk</execute></action>
+		</item>
+		<item label="nitrogen" icon="/usr/share/icons/hicolor/16x16/apps/nitrogen.png">
+			<action name="Execute"><execute>nitrogen</execute></action>
+		</item>
+		<item label="picom">
+			<action name="Execute"><execute>picom</execute></action>
+		</item>
+	</menu> <!-- Accessories -->
+	<menu id="Games" label="Games">
+		<item label="Steam (Runtime)" icon="/usr/share/icons/hicolor/16x16/apps/steam.png">
+			<action name="Execute"><execute>/usr/bin/steam-runtime </execute></action>
+		</item>
+		<item label="jstest-gtk" icon="///usr/share/icons/jstest-gtk.png">
+			<action name="Execute"><execute>/usr/bin/jstest-gtk</execute></action>
+		</item>
+	</menu> <!-- Games -->
+	<menu id="Internet" label="Internet">
+		<item label="Avahi SSH Server Browser">
+			<action name="Execute"><execute>/usr/bin/bssh</execute></action>
+		</item>
+		<item label="Avahi VNC Server Browser">
+			<action name="Execute"><execute>/usr/bin/bvnc</execute></action>
+		</item>
+		<item label="Discord" icon="/usr/share/pixmaps/discord.png">
+			<action name="Execute"><execute>/usr/bin/discord</execute></action>
+		</item>
+		<item label="Firefox" icon="/usr/share/icons/hicolor/16x16/apps/firefox.png">
+			<action name="Execute"><execute>/usr/lib/firefox/firefox </execute></action>
+		</item>
+		<item label="KDE Connect" icon="/usr/share/icons/hicolor/16x16/apps/kdeconnect.png">
+			<action name="Execute"><execute>kdeconnect-app</execute></action>
+		</item>
+		<item label="KDE Connect Indicator" icon="/usr/share/icons/hicolor/16x16/apps/kdeconnect.png">
+			<action name="Execute"><execute>kdeconnect-indicator</execute></action>
+		</item>
+		<item label="KDE Connect SMS" icon="/usr/share/icons/hicolor/16x16/apps/kdeconnect.png">
+			<action name="Execute"><execute>kdeconnect-sms</execute></action>
+		</item>
+		<item label="Open on connected device via KDE Connect" icon="/usr/share/icons/hicolor/16x16/apps/kdeconnect.png">
+			<action name="Execute"><execute>kdeconnect-handler --open </execute></action>
+		</item>
+		<item label="Steam (Runtime)" icon="/usr/share/icons/hicolor/16x16/apps/steam.png">
+			<action name="Execute"><execute>/usr/bin/steam-runtime </execute></action>
+		</item>
+		<item label="Telegram Desktop" icon="/usr/share/icons/hicolor/16x16/apps/telegram.png">
+			<action name="Execute"><execute>telegram-desktop -- </execute></action>
+		</item>
+		<item label="Thunderbird" icon="/usr/share/icons/hicolor/16x16/apps/thunderbird.png">
+			<action name="Execute"><execute>/usr/lib/thunderbird/thunderbird </execute></action>
+		</item>
+		<item label="Transmission" icon="/usr/share/icons/hicolor/16x16/apps/transmission.png">
+			<action name="Execute"><execute>transmission-gtk </execute></action>
+		</item>
+		<item label="Zoom" icon="/usr/share/pixmaps/Zoom.png">
+			<action name="Execute"><execute>/usr/bin/zoom </execute></action>
+		</item>
+	</menu> <!-- Internet -->
+	<menu id="Programming" label="Programming">
+		<item label="Electron" icon="/usr/share/pixmaps/electron.png">
+			<action name="Execute"><execute>electron </execute></action>
+		</item>
+	</menu> <!-- Programming -->
+	<menu id="Sound &amp; Video" label="Sound &amp; Video">
+		<item label="Audacity" icon="/usr/share/icons/hicolor/16x16/apps/audacity.png">
+			<action name="Execute"><execute>env UBUNTU_MENUPROXY=0 audacity </execute></action>
+		</item>
+		<item label="Kdenlive" icon="/usr/share/icons/hicolor/16x16/apps/kdenlive.png">
+			<action name="Execute"><execute>kdenlive </execute></action>
+		</item>
+		<item label="OBS Studio" icon="/usr/share/icons/hicolor/256x256/apps/com.obsproject.Studio.png">
+			<action name="Execute"><execute>obs</execute></action>
+		</item>
+		<item label="PNMixer" icon="/usr/share/icons/hicolor/128x128/apps/pnmixer.png">
+			<action name="Execute"><execute>pnmixer</execute></action>
+		</item>
+		<item label="PulseAudio Volume Control">
+			<action name="Execute"><execute>pavucontrol</execute></action>
+		</item>
+		<item label="Qt V4L2 test Utility" icon="/usr/share/icons/hicolor/16x16/apps/qv4l2.png">
+			<action name="Execute"><execute>qv4l2</execute></action>
+		</item>
+		<item label="Qt V4L2 video capture utility" icon="/usr/share/icons/hicolor/16x16/apps/qvidcap.png">
+			<action name="Execute"><execute>qvidcap</execute></action>
+		</item>
+		<item label="mpv Media Player" icon="/usr/share/icons/hicolor/16x16/apps/mpv.png">
+			<action name="Execute"><execute>mpv --player-operation-mode=pseudo-gui -- </execute></action>
+		</item>
+	</menu> <!-- Sound & Video -->
+	<menu id="System Tools" label="System Tools">
+		<item label="Avahi Zeroconf Browser">
+			<action name="Execute"><execute>/usr/bin/avahi-discover</execute></action>
+		</item>
+		<item label="Bulk Rename" icon="/usr/share/icons/hicolor/16x16/apps/Thunar.png">
+			<action name="Execute"><execute>/usr/lib/Thunar/ThunarBulkRename </execute></action>
+		</item>
+		<item label="Hardware Locality lstopo">
+			<action name="Execute"><execute>lstopo</execute></action>
+		</item>
+		<item label="Htop" icon="/usr/share/pixmaps/htop.png">
+			<action name="Execute"><execute>xterm -e htop</execute></action>
+		</item>
+		<item label="Termite">
+			<action name="Execute"><execute>termite</execute></action>
+		</item>
+		<item label="Thunar File Manager" icon="/usr/share/icons/hicolor/16x16/apps/Thunar.png">
+			<action name="Execute"><execute>thunar </execute></action>
+		</item>
+		<item label="Tint2">
+			<action name="Execute"><execute>tint2</execute></action>
+		</item>
+		<item label="conky">
+			<action name="Execute"><execute>conky --daemonize --pause=1</execute></action>
+		</item>
+	</menu> <!-- System Tools -->
 	<menu id="root-menu" label="OpenBox 3">
 		<menu id="client-list-menu"/>
 		<item label="Reconfigure WM">

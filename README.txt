@@ -24,3 +24,11 @@ META+Up = Maximize
 META+Down = Unmaximize
 META+Left = Tile Left
 META+Right = Tile Right
+
+Holding Shift plus any of the previous keybinds will make the windows 25% instead of 50%
+That will give you this effect (perfect for Ultrawide monitors :) )
++-----------+----------+
+|     |     |    |     |
++-----------+----------+ 
+|     |     |    |     |
++-----------+----------+
