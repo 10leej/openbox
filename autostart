@@ -20,7 +20,7 @@ tint2 &
 conky -b &
 nitrogen --restore & #restore the background chosen with nitrogen
 pnmixer &
-pcmanfm --desktop &
+thunar -d &
 picom &
 steam &
 nm-applet &
@@ -28,3 +28,4 @@ kdeconnect-indicator &
 thunderbird &
 discord &
 telegram-desktop &
+jstest-gtk &
