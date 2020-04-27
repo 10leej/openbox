@@ -16,7 +16,7 @@
 #
 #xfce-mcs-manager &
 numlockx on &
-tint2 &
+/home/joshua/.config/polybar/launch.sh
 conky -b &
 nitrogen --restore & #restore the background chosen with nitrogen
 pnmixer &
