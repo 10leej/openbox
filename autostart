@@ -19,8 +19,12 @@ numlockx on &
 tint2 &
 conky -b &
 nitrogen --restore & #restore the background chosen with nitrogen
-steam &
+pnmixer &
 pcmanfm --desktop &
+picom &
+steam &
 nm-applet &
-pa-applet &
 kdeconnect-indicator &
+thunderbird &
+discord &
+telegram-desktop &
