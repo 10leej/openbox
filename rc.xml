@@ -111,7 +111,6 @@
       <!-- 'italic' or 'normal' -->
     </font>
   </theme>
-
   <desktops>
     <!-- this stuff is only used at startup, pagers allow you to change them
        during a session
@@ -302,7 +301,6 @@
         <y>0%</y>
       </action>
     </keybind>
-
     <keybind key="W-Delete">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
@@ -321,7 +319,6 @@
         <y>75%</y>
       </action>
     </keybind>
-
     <keybind key="W-Insert">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
@@ -340,7 +337,6 @@
         <y>0%</y>
       </action>
     </keybind>
-
     <keybind key="W-Home">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
@@ -359,7 +355,6 @@
         <y>0%</y>
       </action>
     </keybind>
-
     <keybind key="W-End">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
@@ -378,7 +373,6 @@
         <y>50%</y>
       </action>
     </keybind>
-
     <keybind key="W-Prior">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
@@ -397,7 +391,6 @@
         <y>0%</y>
       </action>
     </keybind>
-
     <keybind key="W-Next">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
@@ -416,7 +409,6 @@
         <y>50%</y>
       </action>
     </keybind>
-
     <!-- Keybindings for window switching -->
     <keybind key="A-Tab">
       <action name="NextWindow">
